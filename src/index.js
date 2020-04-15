@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Grid } from '@material-ui/core';
 import './index.css';
-import {App}  from './App';
-import GroupCont from './components/GroupContainer';
+import {App}  from './components/App';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <GroupCont/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
