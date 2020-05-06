@@ -1,18 +1,10 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Link,
-  Route,
-} from "react-router-dom";
-import { Grid } from '@material-ui/core';
-import GroupCont from './GroupContainers/GroupContainer';
-import RMGLogo from '../img/RMG_Logo_White_NoText.png'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '../App.css';
-import MainPage from './MainPage';
 import BohemianQuartet from './GroupPages/BohemianQuartet';
+import Viatorum from './GroupPages/Viatorum';
 import Header from './Header';
-import Viatorium from './GroupPages/Viatorium';
+import MainPage from './MainPage';
 
 export function App() {
   return (
@@ -26,10 +18,9 @@ export function App() {
             <Route path="/BohemianQuartet">
               <BohemianQuartet />
             </Route>
-            <Route path="/Viatorium">
-              <Viatorium />
+            <Route path="/Viatorum">
+              <Viatorum />
             </Route>
-            
           </Switch>
         </div>
       </Router>

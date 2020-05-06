@@ -1,6 +1,4 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
-import {Link} from "react-router-dom"; 
 import GC from './GroupContainer';
 import Images from "../../img/MainPageImages";
 
