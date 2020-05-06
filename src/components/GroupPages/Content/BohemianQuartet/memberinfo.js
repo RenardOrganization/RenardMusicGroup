@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Paper} from '@material-ui/core';
-import memberinfo from '../Content/Viatorum/directory.js'
+import memberinfo from './directory.js'
 
 
 export default class MemberInfo extends React.Component {

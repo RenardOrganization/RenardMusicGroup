@@ -3,7 +3,7 @@ import { Grid, Button, Divider } from '@material-ui/core';
 import './groupPages.css';
 import viaLogo from '../../img/Viatorum/Logo.png'
 import viaMap from '../../img/Viatorum/Viatorum_Map.jpg'
-import MemberInfo from './components/memberinfo.js'
+import MemberInfo from './Content/Viatorum/memberinfo.js'
 
 
 export default function App() {
