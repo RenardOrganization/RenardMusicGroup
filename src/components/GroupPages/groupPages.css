@@ -1,14 +1,15 @@
-.Logo {
-    width: 100%;
-    height: auto
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-.Video_Embed {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.Text_Light{
+    color: white;
+}
+.Logo {
     width: 100%;
+    height: auto;
 }
 
 .Fit_image{
@@ -26,6 +27,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     flex-flow: row wrap-reverse;
+    padding: 20px;
 }
 
 .Banner{
@@ -33,3 +35,22 @@
     height: auto
 }
 
+.Video_Embed {
+    position: relative;
+    width: 100%;
+    min-height: 30%;
+    padding-bottom: 40%;
+}
+
+.Video_Embed_iFrame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#GroupPageLogo{
+    margin-bottom: 10px;
+    min-height: 50vmin;
+}

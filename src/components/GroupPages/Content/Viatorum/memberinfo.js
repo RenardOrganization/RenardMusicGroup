@@ -15,8 +15,8 @@ export default class MemberInfo extends React.Component {
             <img src={memberinfo[index].img} className="Fit_image" />
           </Grid>
           <Grid item xs="10" sm="7" lg="8">
-            <h1>{memberinfo[index].name} ({memberinfo[index].instr})</h1>
-            {memberinfo[index].info}
+            <h1 className="Text_Light">{memberinfo[index].name} ({memberinfo[index].instr})</h1>
+            <p className="Text_Light">{memberinfo[index].info}</p>
           </Grid>
         
         </Grid>
