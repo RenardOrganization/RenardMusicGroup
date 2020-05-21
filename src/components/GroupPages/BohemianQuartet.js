@@ -11,16 +11,19 @@ export default function App() {
   return (
     <div>
       <Grid container
-        direction="column" spacing={4} alignItems="center">
+        direction="column" spacing={0} alignItems="center" className="GroupPage_Content_Row">
       {/* Band Header: Logo, EPK, Download */}
       <Header/>
 
-      <Grid item container style={{backgroundColor: 'White', justifyContent: 'center'}}  direction="row" height="2vh" className="GroupPage_Content_Row" xs={10} spacing={2}>
-        <Grid item  >
-        <iframe src="https://open.spotify.com/embed/album/6LY5KTIAguU6rI2lUbwJaN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <Grid className="GroupPage_Content_Row"  container 
+      style={{backgroundColor: '#282c34', justifyContent: 'center'}}
+      direction="row"
+      xs={10}>
+        <Grid   >
+          <iframe src="https://open.spotify.com/embed/album/6LY5KTIAguU6rI2lUbwJaN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </Grid>
-        <Grid item >
-        <iframe src="https://open.spotify.com/embed/album/1XlRl7o56eVi8qIkoqISop" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <Grid  >
+          <iframe src="https://open.spotify.com/embed/album/1XlRl7o56eVi8qIkoqISop" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </Grid>
       </Grid>
       
@@ -30,7 +33,10 @@ export default function App() {
       
       {/* Start of performer info boxes */}
       <Grid container
-      direction="column" className="GroupPage_Content_Row">
+      style={{backgroundColor: '#282c34'}}
+      direction="column"
+      className="GroupPage_Content_Row"
+      xs={10}>
         <MemberInfo index="3"/>
         <MemberInfo index="0"/>
         <MemberInfo index="1"/>

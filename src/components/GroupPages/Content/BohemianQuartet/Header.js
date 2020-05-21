@@ -4,11 +4,12 @@ import viaLogo from '../../../../img/BohemianQuartet/Logo.JPG'
 
 export default function App() {
     return (
-        <Grid item container 
-          style={{backgroundColor: 'Blue'}}
+        <Grid container 
+          style={{backgroundColor: '#282c34'}}
           justify="space-around"
           alignItems="center"
           className="GroupPage_Content_Row" 
+          xs={10}
           >
           
           <Grid item container 

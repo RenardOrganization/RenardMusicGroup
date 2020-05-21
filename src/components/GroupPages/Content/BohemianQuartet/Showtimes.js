@@ -1,10 +1,15 @@
 import React from 'react';
 import { Grid, Button, Card, CardContent, CardMedia, CardActions} from '@material-ui/core';
-import viaLogo from '../../../../img/Viatorum/Logo.png'
+import viaLogo from '../../../../img/BohemianQuartet/Logo.JPG'
 
 export default function App() {
     return (
-        <Grid item container style={{backgroundColor: 'Orange'}} direction="row" height="2vh" className="GroupPage_Content_Row" xs={10} spacing={2}>
+        <Grid container
+        style={{backgroundColor: '#282c34'}}
+        direction="row"
+        className="GroupPage_Content_Row"
+        xs={11}
+        >
           <Grid item style={{justifyContent: 'center'}} xs={12}>
             <h3 text-align="center" color="white">Events</h3>
           </Grid>
