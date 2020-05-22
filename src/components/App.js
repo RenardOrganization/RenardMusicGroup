@@ -5,6 +5,7 @@ import BohemianQuartet from './GroupPages/BohemianQuartet';
 import Viatorum from './GroupPages/Viatorum';
 import Header from './Header';
 import MainPage from './MainPage';
+import Footer from './Footer';
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
               <Viatorum />
             </Route>
           </Switch>
+          <Footer/>
         </div>
       </Router>
   );

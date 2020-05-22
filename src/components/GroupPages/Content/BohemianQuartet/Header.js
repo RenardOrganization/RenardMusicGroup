@@ -27,7 +27,7 @@ export default function App() {
           </Grid>
 
         {/* Video Embed */}
-        <Grid item xs="10" md="7" className="Video_Embed">
+        <Grid item xs="12" md="7" className="Video_Embed">
             <iframe title="Viatorum Performs Shallalat (Waterfalls)"
               className="Video_Embed_iFrame"
               src="https://www.youtube-nocookie.com/embed/9nCAgcehC1I" 

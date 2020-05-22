@@ -8,7 +8,7 @@ export default class GroupContainer extends React.Component {
     return (
       <Grid container className="Group-container" direction="row" md="6" lg="4" alignItems="center">
         <Paper>
-          <Link to={this.props.url}>
+          <Link target={this.props.urltarget} to={this.props.url} >
             <Grid item className="Group-container-item" >
               <img src={this.props.logo} className="Container_img" alt={this.props.name} />
             </Grid>

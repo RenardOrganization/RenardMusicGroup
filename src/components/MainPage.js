@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import BQ from "./GroupContainers/BohemianQuartet"
 import Via from "./GroupContainers/Viatorum"
+import Merch from './Merch';
 import '../App.css';
 
 export default function MainPage() {
@@ -12,12 +13,10 @@ export default function MainPage() {
         direction ="row"
         justify="space-around"
         alignItems="stretch">
-          <Via/>
           <BQ/>
           <Via/>
-          <BQ/>
-          <Via/>
-          <BQ/>
+          <Merch/>
+
       </Grid>
     </div>
   );

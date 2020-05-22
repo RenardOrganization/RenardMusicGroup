@@ -36,10 +36,10 @@
 }
 
 .Video_Embed {
-    position: relative;
-    width: 100%;
-    min-height: 30%;
-    padding-bottom: 40%;
+    position: relative; 
+    padding-bottom: 50%; 
+    height: 0; 
+    overflow: hidden; 
 }
 
 .Video_Embed_iFrame{
@@ -48,9 +48,9 @@
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 20px;
 }
 
 #GroupPageLogo{
-    margin-bottom: 10px;
     min-height: 50vmin;
 }
