@@ -13,6 +13,10 @@ export default function Footer () {
             <h3>
                 Contact us
             </h3>
+            <br/>
+            <p>
+            Email: <a href="mailto:"> Email@Example.com</a>
+            </p>
 
         </Grid>
     );

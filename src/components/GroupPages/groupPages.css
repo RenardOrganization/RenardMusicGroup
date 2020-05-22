@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
+
 .Text_Light{
     color: white;
 }
@@ -53,4 +58,8 @@
 
 #GroupPageLogo{
     min-height: 50vmin;
+}
+
+.Spotify_Embed{
+    padding: 10px;
 }

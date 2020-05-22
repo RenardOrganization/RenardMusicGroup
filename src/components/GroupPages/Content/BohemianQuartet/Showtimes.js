@@ -11,7 +11,7 @@ export default function App() {
         xs={11}
         >
           <Grid item style={{justifyContent: 'center'}} xs={12}>
-            <h3 text-align="center" color="white">Events</h3>
+            <h2 text-align="center" color="white">Events</h2>
           </Grid>
           <Grid item className="showtimes" xs={3}>
             <Card variant="outlined">

@@ -15,14 +15,19 @@ export default function App() {
       {/* Band Header: Logo, EPK, Download */}
       <Header/>
 
-      <Grid className="GroupPage_Content_Row"  container 
-      style={{backgroundColor: '#282c34', justifyContent: 'center'}}
+      <Grid container 
+      className="GroupPage_Content_Row"
+      style={{backgroundColor: '#282c34'}}
       direction="row"
+      justify="center"
       xs={10}>
-        <Grid   >
+        <Grid xs={12}>
+          <h2> Albums</h2>
+        </Grid>
+        <Grid className="Spotify_Embed">
           <iframe src="https://open.spotify.com/embed/album/6LY5KTIAguU6rI2lUbwJaN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </Grid>
-        <Grid  >
+        <Grid className="Spotify_Embed">
           <iframe src="https://open.spotify.com/embed/album/1XlRl7o56eVi8qIkoqISop" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </Grid>
       </Grid>
