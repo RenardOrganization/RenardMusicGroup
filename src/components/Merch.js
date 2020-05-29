@@ -9,7 +9,7 @@ export default class BohemianQuartet extends React.Component {
                 logo={image}
                 photo={image}
                 url="merchandise"
-                urltarget="_blank"
+                // urltarget="_blank"
                 name="Merch Shop"/>
 
             
