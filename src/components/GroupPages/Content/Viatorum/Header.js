@@ -17,10 +17,10 @@ export default function App() {
             id="GroupPageLogo"
             xs="10" md="3">
               <Grid item>
-        <h3>Prone to wander…</h3>
+        <h3>Prone to wander…</h3><br/>
         <p>
           Imagine a jam session swirling in Middle Eastern modes, Western counterpoint, Romani fervor, driving rhythms, and Andalusian flair—and you will begin to understand the musical ambition of Viatorum.
-        </p><br/>
+        </p><br/><br/><br/><br/>
         </Grid>
               <Grid item>
                 <img src={viaLogo} className="Logo" alt="Viatorum Logo"/>
