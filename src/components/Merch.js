@@ -8,7 +8,7 @@ export default class BohemianQuartet extends React.Component {
                 <GC 
                 logo={image}
                 photo={image}
-                url="https://bandcamp.com/"
+                url="merchandise"
                 urltarget="_blank"
                 name="Merch Shop"/>
 
