@@ -1,72 +1,61 @@
 import React from 'react';
-import { Grid, Button, Card, CardContent, CardMedia, CardActions} from '@material-ui/core';
+import { Grid, Button, Paper} from '@material-ui/core';
 import viaLogo from '../../../../img/BohemianQuartet/Logo.JPG'
 
 export default function App() {
     return (
         <Grid container
-        style={{backgroundColor: '#282c34'}}
-        direction="row"
+        style={{backgroundColor: ''}}
+        direction="column"
         className="GroupPage_Content_Row"
         xs={11}
+        spacing={2}
         >
           <Grid item style={{justifyContent: 'center'}} xs={12}>
             <h2 text-align="center" color="white">Events</h2>
           </Grid>
-          <Grid item className="showtimes" xs={3}>
-            <Card variant="outlined">
-                <CardMedia>
-                <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
-                </CardMedia>
-                <CardContent>
-                    <h3>January 1st, 2020</h3>
-                </CardContent>
-                <CardActions>
-                    <Button size="small">Get Tickets</Button>
-                </CardActions>
-            </Card>
-          </Grid>
 
-          <Grid item className="showtimes" xs={3}>
-            <Card variant="outlined">
-                <CardMedia>
-                <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
-                </CardMedia>
-                <CardContent>
-                    <h3>January 2nd, 2020</h3>
-                </CardContent>
-                <CardActions>
-                    <Button size="small">Get Tickets</Button>
-                </CardActions>
-            </Card>
+          <Grid item className="showtimes" xs={12}>
+              <Paper elevation={1}>
+                <Grid container justify="space-between">
+                  <Grid item>
+                    January 1st, 2020 <br/>
+                    San Antonio, Texas
+                  </Grid>
+                  <Grid item align="center">
+                    <Button variant="contained" color="Primary">Get Tickets</Button>
+                  </Grid>
+                  
+                </Grid>
+              </Paper>
           </Grid>
-
-          <Grid item className="showtimes" xs={3}>
-            <Card variant="outlined">
-                <CardMedia>
-                <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
-                </CardMedia>
-                <CardContent>
-                    <h3>January 3rd, 2020</h3>
-                </CardContent>
-                <CardActions>
-                    <Button size="small">Get Tickets</Button>
-                </CardActions>
-            </Card>
+          <Grid item className="showtimes" xs={12}>
+              <Paper elevation={1}>
+                <Grid container justify="space-between">
+                  <Grid item>
+                    January 1st, 2020 <br/>
+                    San Antonio, Texas
+                  </Grid>
+                  <Grid item align="center">
+                    <Button variant="contained" color="Primary">Get Tickets</Button>
+                  </Grid>
+                  
+                </Grid>
+              </Paper>
           </Grid>
-
-          <Grid item className="showtimes" xs={3}>
-            <Card variant="outlined">
-                <CardMedia>
-                <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
-                </CardMedia>
-                <CardContent>
-                    <h3>January 4th, 2020</h3>
-                </CardContent>
-                <CardActions>
-                    <Button size="small">Get Tickets</Button>
-                </CardActions>
-            </Card>
+          <Grid item className="showtimes" xs={12}>
+              <Paper elevation={1}>
+                <Grid container justify="space-between">
+                  <Grid item>
+                    January 1st, 2020 <br/>
+                    San Antonio, Texas
+                  </Grid>
+                  <Grid item align="center">
+                    <Button variant="contained" color="Primary">Get Tickets</Button>
+                  </Grid>
+                  
+                </Grid>
+              </Paper>
           </Grid>
         </Grid>
     );

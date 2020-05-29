@@ -20,12 +20,17 @@ export default function App() {
                 <img src={viaLogo} className="Logo" alt="Viatorum Logo"/>
               </Grid>
               <Grid item>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+              <a href="https://www.facebook.com/Viatorum-Music-103851897852936/" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/viatorummusic/" class="fa fa-instagram"></a>
+            </Grid>
+              <Grid item>
                 <Button variant="contained">Download EPK</Button>
               </Grid>
             </Grid>
 
           {/* Video Embed */}
-          <Grid item xs="10" md="7" className="Video_Embed">
+          <Grid container item xs="10" md="7" className="Video_Embed_Wide" alignItems="center">
             <iframe className="Video_Embed_iFrame"
               src="https://www.youtube-nocookie.com/embed/NRrlSSNz738" 
               frameborder="0"

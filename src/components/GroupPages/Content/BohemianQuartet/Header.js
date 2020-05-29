@@ -5,11 +5,11 @@ import viaLogo from '../../../../img/BohemianQuartet/Logo.JPG'
 export default function App() {
     return (
         <Grid container 
-          style={{backgroundColor: '#282c34'}}
+          style={{backgroundColor: ''}}
           justify="space-around"
           alignItems="center"
           className="GroupPage_Content_Row" 
-          xs={10}
+          xs={12}
           >
           
           <Grid item container 
@@ -22,15 +22,34 @@ export default function App() {
               <img src={viaLogo} className="Logo" alt="Bohemian Quartet Logo"/>
             </Grid>
             <Grid item>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+              <a href="https://www.facebook.com/bohemianquartet/" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </Grid>
+            <Grid item>
               <Button variant="contained">Download EPK</Button>
             </Grid>
           </Grid>
 
         {/* Video Embed */}
-        <Grid item xs="12" md="7" className="Video_Embed">
+        <Grid item xs="12" md="7" className="Video_Embed_Wide">
             <iframe title="Viatorum Performs Shallalat (Waterfalls)"
               className="Video_Embed_iFrame"
               src="https://www.youtube-nocookie.com/embed/9nCAgcehC1I" 
+              frameborder="0"
+              allowfullscreen/>
+        </Grid>
+        <Grid item xs="12" md="5" className="Video_Embed_Small">
+            <iframe title="Viatorum Performs Shallalat (Waterfalls)"
+              className="Video_Embed_iFrame"
+              src="https://www.youtube-nocookie.com/embed/4rnHJUNc4Ek" 
+              frameborder="0"
+              allowfullscreen/>
+        </Grid>
+        <Grid item xs="12" md="5" className="Video_Embed_Small">
+            <iframe title="Viatorum Performs Shallalat (Waterfalls)"
+              className="Video_Embed_iFrame"
+              src="https://www.youtube-nocookie.com/embed/zESUAOLRP8k" 
               frameborder="0"
               allowfullscreen/>
         </Grid>

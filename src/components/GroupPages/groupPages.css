@@ -9,6 +9,14 @@ h2{
     text-align: center;
 }
 
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
 .Text_Light{
     color: white;
 }
@@ -42,7 +50,23 @@ h2{
 
 .Video_Embed {
     position: relative; 
-    padding-bottom: 50%; 
+    padding-bottom: 56.25%; 
+    max-width: 100%;
+    height: 0; 
+    overflow: hidden; 
+}
+
+.Video_Embed_Small {
+    position: relative; 
+    padding-bottom: 20%; 
+    max-width: 100%;
+    height: 0; 
+    overflow: hidden; 
+}
+.Video_Embed_Wide {
+    position: relative; 
+    padding-bottom: 40%; 
+    max-width: 100%;
     height: 0; 
     overflow: hidden; 
 }
@@ -64,3 +88,12 @@ h2{
 .Spotify_Embed{
     padding: 10px;
 }
+
+/* Style all font awesome icons (Social Media)*/
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }

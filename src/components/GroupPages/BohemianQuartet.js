@@ -17,7 +17,7 @@ export default function App() {
 
       <Grid container 
       className="GroupPage_Content_Row"
-      style={{backgroundColor: '#282c34'}}
+      style={{backgroundColor: ''}}
       direction="row"
       justify="center"
       xs={10}>
@@ -38,7 +38,7 @@ export default function App() {
       
       {/* Start of performer info boxes */}
       <Grid container
-      style={{backgroundColor: '#282c34'}}
+      style={{backgroundColor: ''}}
       direction="column"
       className="GroupPage_Content_Row"
       xs={10}>
@@ -51,15 +51,4 @@ export default function App() {
     </div>
     
   );
-}
-
-function stringToHTML(str)
-{
-  // var parser = new DOMParser();
-  // var doc = parser.parseFromString(str, 'text/html');
-  // return doc.body;
-
-  var dom = document.createElement('div');
-  dom.innerHTML = str;
-  return {dom};
 }

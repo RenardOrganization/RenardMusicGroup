@@ -11,11 +11,12 @@ export default function Footer () {
         xs={12}
         >
             <h3>
-                Contact us
+                For Bookings, Contact:
             </h3>
             <br/>
             <p>
             Email: <a href="mailto:"> Email@Example.com</a>
+            Phone: 111-111-1111
             </p>
 
         </Grid>
