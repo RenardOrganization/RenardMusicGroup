@@ -52,13 +52,6 @@ export default function App() {
               frameborder="0"
               allowfullscreen/>
         </Grid>
-        <Grid item xs="12" md="6" className="Video_Embed_Wide">
-            <iframe title="Viatorum Performs Shallalat (Waterfalls)"
-              className="Video_Embed_iFrame"
-              src="https://www.youtube-nocookie.com/embed/zESUAOLRP8k" 
-              frameborder="0"
-              allowfullscreen/>
-        </Grid>
       </Grid>
     );
 }

@@ -21,15 +21,8 @@ export default function App() {
             <img src={viaMap} className="Banner" alt="Viatorum Definition"/>
           </Grid>
         </Grid>
-
-        
-        {/* Showtimes */}
-        <Schedule/>
-        
-        {/* Start of performer info boxes */}
         <Grid xs={10}>
-        <h2> Meet the band</h2>
-        <h3>Prone to wander…</h3>
+        <h2>Prone to wander…</h2>
         <p>
           A world in commotion; traversing migratory paths that cross the globe; narrowing the gulfs that divide; intuiting the common rhythms that pulse sympathetically with our shared humanity. These are the reverberant muses at the heart of Viatorum. Formed in the rich cultural mosaic of San Antonio, Texas, the members of Viatorum share a passion for music that grooves, uplifts, moves the spirit, and unites. With a deep reverence for the world’s diverse cultures, the band’s members hail from the United States, France, and Turkey.
         </p>
@@ -37,17 +30,9 @@ export default function App() {
           Imagine a jam session swirling in Middle Eastern modes, Western counterpoint, Romani fervor, driving rhythms, and Andalusian flair—and you will begin to understand the musical ambition of Viatorum. Based on their collective study of and training in a variety of musical traditions, their music endeavors to spread the infectious joy that it continually brings to them.
         </p>
         </Grid>
-        
-        <Grid container
-          direction="column" className="GroupPage_Content_Row">
 
-        {/* Individual Performer */}
-        <MemberInfo index="0"/>
-        <MemberInfo index="1"/>
-        <MemberInfo index="2"/>
-        <MemberInfo index="3"/>
-        <MemberInfo index="4"/>
-      </Grid> {/* End of performer info boxes */}
+        {/* Showtimes */}
+        <Schedule/>
       </Grid>
     </div>
     
