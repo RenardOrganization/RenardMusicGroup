@@ -13,6 +13,10 @@ h3{
     color: white;
 }
 
+.text_right{
+    text-align: right;
+}
+
 p{
     color: white;
 }

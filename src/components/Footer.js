@@ -10,12 +10,12 @@ export default function Footer () {
         className="GroupPage_Content_Row" 
         xs={12}
         >
-            <h3>
+            <h2>
                 For Bookings, Contact:
-            </h3>
+            </h2>
             <br/>
             <p>
-            Email: <a href="mailto:"> Email@Example.com</a>
+            Email: <a href="mailto:"> Email@Example.com</a><br/>
             Phone: 111-111-1111
             </p>
 
