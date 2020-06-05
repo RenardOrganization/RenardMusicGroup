@@ -4,11 +4,11 @@ import viaLogo from '../../../../img/Viatorum/Logo.png'
 
 export default function App() {
     return (
-        <Grid item container direction="row" height="2vh" className="GroupPage_Content_Row" xs={10} spacing={2}>
+        <Grid item container direction="row" height="2vh" className="GroupPage_Content_Row" xs={4} spacing={2}>
           <Grid item xs={12}>
             <h3 color="white">Events</h3>
           </Grid>
-          <Grid item className="showtimes" xs={3}>
+          <Grid item className="showtimes" >
             <Card variant="outlined">
                 <CardMedia>
                 <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
@@ -22,7 +22,7 @@ export default function App() {
             </Card>
           </Grid>
 
-          <Grid item className="showtimes" xs={3}>
+          <Grid item className="showtimes" >
             <Card variant="outlined">
                 <CardMedia>
                 <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
@@ -36,7 +36,7 @@ export default function App() {
             </Card>
           </Grid>
 
-          <Grid item className="showtimes" xs={3}>
+          <Grid item className="showtimes" >
             <Card variant="outlined">
                 <CardMedia>
                 <img src={viaLogo} width="100%" alt="Viatorum Logo"/>
@@ -50,7 +50,7 @@ export default function App() {
             </Card>
           </Grid>
 
-          <Grid item className="showtimes" xs={3}>
+          <Grid item className="showtimes">
             <Card variant="outlined">
                 <CardMedia>
                 <img src={viaLogo} width="100%" alt="Viatorum Logo"/>

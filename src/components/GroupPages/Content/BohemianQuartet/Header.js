@@ -33,7 +33,7 @@ export default function App() {
               <a href="#" class="fa fa-instagram  fa-4x"></a>
             </Grid>
             <Grid item>
-              <Button variant="contained">Download EPK</Button>
+              <Button href={process.env.PUBLIC_URL + '/Bohemian Quartet EPK.pdf'} variant="contained">Download EPK</Button>
             </Grid>
           </Grid>
 
