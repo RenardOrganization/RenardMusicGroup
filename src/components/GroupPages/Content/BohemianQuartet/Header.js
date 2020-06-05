@@ -29,8 +29,8 @@ export default function App() {
             </Grid>
             <Grid item>
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-              <a href="https://www.facebook.com/bohemianquartet/" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-instagram"></a>
+              <a href="https://www.facebook.com/bohemianquartet/" class="fa fa-facebook fa-4x"></a>
+              <a href="#" class="fa fa-instagram  fa-4x"></a>
             </Grid>
             <Grid item>
               <Button variant="contained">Download EPK</Button>

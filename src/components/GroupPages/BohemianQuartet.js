@@ -3,7 +3,7 @@ import { Grid, Button } from '@material-ui/core';
 import './groupPages.css';
 import Header from './Content/BohemianQuartet/Header'
 import Schedule from './Content/BohemianQuartet/Showtimes'
-
+import Gallery from './Content/BohemianQuartet/gallery'
 import MemberInfo from './Content/BohemianQuartet/memberinfo.js'
 
 
@@ -31,7 +31,7 @@ export default function App() {
           <iframe src="https://open.spotify.com/embed/album/1XlRl7o56eVi8qIkoqISop" width="400" height="650" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </Grid>
       </Grid>
-      
+      <Gallery/>
       {/* Showtimes */}
       <Schedule/>
 
