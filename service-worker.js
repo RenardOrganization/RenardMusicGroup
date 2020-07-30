@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RenardMusicGroup/precache-manifest.2454b3abffbd190c0a6cf6e471a591a5.js"
+  "/RenardMusicGroup/precache-manifest.d757925311b0867d975f293849859b3a.js"
 );
 
 self.addEventListener('message', (event) => {
