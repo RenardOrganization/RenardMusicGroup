@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RenardMusicGroup/static/css/main.73757935.chunk.css",
-    "main.js": "/RenardMusicGroup/static/js/main.013a6389.chunk.js",
-    "main.js.map": "/RenardMusicGroup/static/js/main.013a6389.chunk.js.map",
+    "main.js": "/RenardMusicGroup/static/js/main.804e86ea.chunk.js",
+    "main.js.map": "/RenardMusicGroup/static/js/main.804e86ea.chunk.js.map",
     "runtime-main.js": "/RenardMusicGroup/static/js/runtime-main.68695e6d.js",
     "runtime-main.js.map": "/RenardMusicGroup/static/js/runtime-main.68695e6d.js.map",
     "static/js/2.75efc3f3.chunk.js": "/RenardMusicGroup/static/js/2.75efc3f3.chunk.js",
     "static/js/2.75efc3f3.chunk.js.map": "/RenardMusicGroup/static/js/2.75efc3f3.chunk.js.map",
     "index.html": "/RenardMusicGroup/index.html",
-    "precache-manifest.d757925311b0867d975f293849859b3a.js": "/RenardMusicGroup/precache-manifest.d757925311b0867d975f293849859b3a.js",
+    "precache-manifest.6d40964b864ece913bc6cbe72eb974ef.js": "/RenardMusicGroup/precache-manifest.6d40964b864ece913bc6cbe72eb974ef.js",
     "service-worker.js": "/RenardMusicGroup/service-worker.js",
     "static/css/main.73757935.chunk.css.map": "/RenardMusicGroup/static/css/main.73757935.chunk.css.map",
     "static/js/2.75efc3f3.chunk.js.LICENSE.txt": "/RenardMusicGroup/static/js/2.75efc3f3.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.68695e6d.js",
     "static/js/2.75efc3f3.chunk.js",
     "static/css/main.73757935.chunk.css",
-    "static/js/main.013a6389.chunk.js"
+    "static/js/main.804e86ea.chunk.js"
   ]
 }

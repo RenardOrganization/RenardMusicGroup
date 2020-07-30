@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b78a8f545cc3da336f252acdb8d785a",
+    "revision": "9f4c70f6b9bc0e492a17838e5d302e80",
     "url": "/RenardMusicGroup/index.html"
   },
   {
-    "revision": "435c569b197ab7bc3b3c",
+    "revision": "0555271d6b5422cdf6fa",
     "url": "/RenardMusicGroup/static/css/main.73757935.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RenardMusicGroup/static/js/2.75efc3f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "435c569b197ab7bc3b3c",
-    "url": "/RenardMusicGroup/static/js/main.013a6389.chunk.js"
+    "revision": "0555271d6b5422cdf6fa",
+    "url": "/RenardMusicGroup/static/js/main.804e86ea.chunk.js"
   },
   {
     "revision": "dca7ebc0f60ba8e5bc9b",
