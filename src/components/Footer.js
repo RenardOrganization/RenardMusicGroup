@@ -15,8 +15,8 @@ export default function Footer () {
             </h2>
             <br/>
             <p>
-            Email: <a href="mailto:"> Email@Example.com</a><br/>
-            Phone: 111-111-1111
+            Email: <a href="mailto:renardmusicgroup@gmail.com"> RenardMusicGroup@Gmail.com</a><br/>
+            Phone: 603-203-7137
             </p>
 
         </Grid>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import '../App.css';
 import BohemianQuartet from './GroupPages/BohemianQuartet';
 import Viatorum from './GroupPages/Viatorum';
@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 export function App() {
   return (
-    <Router>
+    <Router basename='/'>
         <div>
           <Header/>
           <Route exact path="/">
