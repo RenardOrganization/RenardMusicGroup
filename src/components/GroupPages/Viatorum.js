@@ -32,7 +32,7 @@ export default function App() {
         </Grid>
 
         {/* Showtimes */}
-        <Schedule/>
+        {/*<Schedule/>*/}
       </Grid>
     </div>
     
