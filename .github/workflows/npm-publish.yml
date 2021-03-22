@@ -15,8 +15,9 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+      - name: Deploy to GH-Pages🚀
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/CDeLeon94/RenardMusicGroup.git
+          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
