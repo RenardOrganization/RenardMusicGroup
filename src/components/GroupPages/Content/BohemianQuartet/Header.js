@@ -20,7 +20,7 @@ export default function App() {
             xs="10" md="3">
             <Grid item>
             <p>
-              "Violinist Stan Renard is a highly accomplished player and has the csardas and hora styles at his fingertips [...] the performances are very enjoyable [...] the musicians play up quite a storm."
+              "Violinist Stan Renard is a highly accomplished player and has the csárdás and hora styles at his fingertips [...] the performances are very enjoyable [...] the musicians play up quite a storm."
             </p>
             <h3 className="text_right">STRAD Magazine</h3><br/>
             </Grid>
