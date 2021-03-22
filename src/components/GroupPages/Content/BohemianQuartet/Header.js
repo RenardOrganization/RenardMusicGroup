@@ -22,7 +22,7 @@ export default function App() {
             <p>
               "Violinist Stan Renard is a highly accomplished player and has the csárdás and hora styles at his fingertips [...] the performances are very enjoyable [...] the musicians play up quite a storm."
             </p>
-            <h3 className="text_right">STRAD Magazine</h3><br/>
+            <h3 className="text_right"><a href="https://www.thestrad.com/beyond-tradition/974.article">STRAD Magazine</a></h3><br/>
             </Grid>
             <Grid item>
               <img src={viaLogo} className="Logo" alt="Bohemian Quartet Logo"/>
